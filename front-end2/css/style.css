@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #666;
+    color: blueviolet;
+}
+h1{
+    color: green;
+    font-weight: 600;
+    font-style: italic;
+}
+p {
+    font-size: 16px;
+}
+
+.span-blue-bg {
+    background: rgb(11, 228, 243);
+    color: blueviolet;
+}
+
+.span-green-bg {
+    background: rgb(98, 150, 3);
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
