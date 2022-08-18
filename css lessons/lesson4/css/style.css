@@ -1,0 +1,62 @@
+/* float: left */
+/* float: right */
+/* float: none */
+
+.clearfix {
+    width: 100%;
+    clear: both;
+}
+
+p {
+    background: pink;
+    /* width: 300px; */
+}
+
+.one {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.two {
+    background: lime;
+    width: 90px;
+    height: 90px;
+    float: left; 
+}
+
+.parent {
+    padding: 10px;
+    background: lightblue;
+}
+
+.three {
+background: orange;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.wrap {
+    background: #37b1cf;
+    padding: 5px;
+}
+
+.block {
+    background: #c0c0c0;
+    float: left;
+    width: 47%;
+    min-height: 100px;
+    margin: 0 1.5%;
+}
+
+.block3 {
+    /* 100/3 = 33.333333 */
+    background: #c0c0c0;
+    float: left;
+    width: 31.3333%;
+    min-height: 100px;
+    margin: 0 1%;
+}
